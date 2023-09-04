@@ -1,0 +1,82 @@
+%Created: 2023-09-04
+%By: VictorieeMan
+%URL: https://github.com/VictorieeMan/KTH-MH1024-kompendium
+
+% ------------------- %
+
+%basic preamble
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%custom timestamp
+\usepackage[yyyymmdd]{datetime}
+	\renewcommand{\dateseparator}{--}
+
+%QR-code
+\usepackage{qrcode}
+
+%URL
+\usepackage{hyperref}
+
+% Tikz
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+% chemfig
+\usepackage{chemfig}
+%\chemfig{H-[7]C(-[5]H)=C(-[1]H)-[7]H}
+
+%Variables
+\newcommand{\pdfUrl}{https://github.com/VictorieeMan/KTH-MH1024-kompendium/releases}
+\newcommand{\email}{\texttt{kontakt.8n9vn@e-mail.victoriee.org}}
+
+% ------------------- %
+
+% Titlepage
+\title{Metalliska Material\\KTH:MH1024-kompendium}
+\author{Victor Ekekrantz}
+
+% ------------------- %
+
+% Document
+\begin{document}
+\pagenumbering{gobble} \maketitle
+
+\newpage
+\section*{Förord}
+% \include{input/modules/förord}
+\tableofcontents
+
+\newpage \pagenumbering{arabic}
+
+\newpage
+\section{Metallers struktur}
+
+\newpage
+\section{Deformationsmekanismer och mekaniska egenskaper}
+
+\newpage
+\section{Fasdiagram och strukturer}
+
+\newpage
+\section{Härdningsmekanismer}
+
+\newpage
+\section{Diffusion, fastfasomvandling i stål och martensitbildning}
+
+\newpage
+\section{Gjutning, stelning och segring, gjutjärn}
+
+\newpage
+\section{Brottmekanismer och korrosion}
+
+\newpage
+\section{Konstrumtionsmetaller, användning och framställning och kompositer}
+
+\newpage
+\pagenumbering{roman}
+\include{input/modules/bibliografi}
+
+\end{document}
